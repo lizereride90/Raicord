@@ -9,7 +9,7 @@ import android.view.LayoutInflater
 import android.widget.FrameLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.bluecord.R
+import com.raicord.R
 import com.discord.api.message.attachment.MessageAttachment
 import mods.ThemingTools
 import mods.audio.AudioMessageEntry

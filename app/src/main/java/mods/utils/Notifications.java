@@ -28,8 +28,8 @@ public class Notifications {
     static {
         try {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Bluecord Notifications", NotificationManager.IMPORTANCE_DEFAULT);
-                channel.setDescription("All notifications added by the Bluecord mod");
+                NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Raicord Notifications", NotificationManager.IMPORTANCE_DEFAULT);
+                channel.setDescription("All notifications added by the Raicord mod");
 
                 // Register the channel with the system; you can't change the importance
                 // or other notification behaviors after this
@@ -64,7 +64,7 @@ public class Notifications {
         final Context ctx = DiscordTools.getContext();
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                .setSmallIcon(com.bluecord.R.drawable.ic_notification_24dp)
+                .setSmallIcon(com.raicord.R.drawable.ic_notification_24dp)
                 .setContentTitle(title)
                 .setContentText(text)
                 .setStyle(new NotificationCompat.BigTextStyle().bigText(text))
@@ -116,7 +116,7 @@ public class Notifications {
         final Context ctx = DiscordTools.getContext();
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                .setSmallIcon(com.bluecord.R.drawable.ic_notification_24dp)
+                .setSmallIcon(com.raicord.R.drawable.ic_notification_24dp)
                 .setContentTitle(Strings.getAppName() + " Update Available!")
                 .setContentText(update.getUpdateMessage().split("\n")[0].trim())
                 .setStyle(new NotificationCompat.BigTextStyle().bigText(update.getUpdateMessage()))

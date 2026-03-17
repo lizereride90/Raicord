@@ -113,7 +113,7 @@ public final class ToastUtil {
             try {
                 cancel();
 
-                View view = activity.getLayoutInflater().inflate(com.bluecord.R.layout.blue_toast_layout, null);
+                View view = activity.getLayoutInflater().inflate(com.raicord.R.layout.blue_toast_layout, null);
 
                 TextView tv = view.findViewById(android.R.id.text1);
                 tv.setText(message);

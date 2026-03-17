@@ -4396,7 +4396,7 @@ Utracono: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Zdobądź dostęp do mnóstwa miejsc na emoji, by zaspokoić wszystkie swoje potrzeby wyrażania siebie.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Teraz to jest rozmowa… z naklejkami.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Największy rozmiar przesyłanych plików, by dzielić się memami najwyższej jakości. **(tylko na serwerze)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Dostosuj adresy URL zaproszeń na serwer dzięki **discord.gg/____. ([Obowiązują pewne zasady]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Dostosuj adresy URL zaproszeń na serwer dzięki **raicord.app/invite/____. ([Obowiązują pewne zasady]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animowana ikona serwera</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Niestandardowe tło zaproszenia na serwer</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Streamuj dla swoich znajomych w wysokiej jakości.</string>
@@ -6465,7 +6465,7 @@ przypiętych wiadomości… jeszcze."</string>
     <string name="notification_reply_failed">Nie udało się odpowiedzieć {recipient}</string>
     <string name="notification_reply_success">Odpowiedziano {recipient}</string>
     <string name="notification_settings">Ustawienia powiadomień</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Ktoś gra w grę</string>
     <string name="notifications">Powiadomienia</string>
     <string name="notifications_muted">Powiadomienia, wyciszone</string>

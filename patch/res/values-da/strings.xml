@@ -4371,7 +4371,7 @@ Tabt: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Giv dig selv adgang til bunkevis af emoji-pladser til alle dine udtrykningsbehov.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">"Nu gi'r vi den gas… med stickers."</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">De største filstørrelser for den højeste kvalitet af meme-deling. **(Kun på server)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Skræddersy invitations URL’en til din server med **discord.gg/____. ([Vi har nogle regler]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Skræddersy invitations URL’en til din server med **raicord.app/invite/____. ([Vi har nogle regler]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animeret serverikon</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Skræddersyet serverinvitationsbaggrund</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Stream til dine venner i høj kvalitet.</string>
@@ -6440,7 +6440,7 @@ ingen fastgjorte beskeder… endnu."</string>
     <string name="notification_reply_failed">Det mislykkedes at svare på {recipient}</string>
     <string name="notification_reply_success">Svarede på {recipient}</string>
     <string name="notification_settings">Meddelelsesindstillinger</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Nogen spiller</string>
     <string name="notifications">Meddelelser</string>
     <string name="notifications_muted">Meddelelser, der er gjort stumme</string>

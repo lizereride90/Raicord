@@ -18,7 +18,7 @@ object CacheUtils {
     }
 
     @JvmStatic
-    fun clearBluecordCache() {
+    fun clearRaicordCache() {
         val files = ArrayList<File>()
         listFiles(FileUtils.tempDir, files)
         if (!ApkInstaller.isDownloading) {

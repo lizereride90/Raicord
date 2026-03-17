@@ -4391,7 +4391,7 @@
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">送给自己一卡车的表情符号槽，满足您所有的表达需要。</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">现在，我们正在交流……当然是用贴纸。</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">可上传最大尺寸的文件，进行最高质量的 meme 分享。 **(仅限服务器内)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">使用 **discord.gg/____，自定义您服务器的邀请 URL。([我们有一些规则需要您遵守]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">使用 **raicord.app/invite/____，自定义您服务器的邀请 URL。([我们有一些规则需要您遵守]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">动画服务器图标</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">自定义服务器邀请背景图片</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">向您的好友高清直播。</string>
@@ -6459,7 +6459,7 @@ Hub 中的服务器由学生自主运营，但也会包括非学生群体。"</s
     <string name="notification_reply_failed">回复至 {recipient} 失败</string>
     <string name="notification_reply_success">回复至 {recipient}</string>
     <string name="notification_settings">通知设定</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">有人正在玩</string>
     <string name="notifications">通知</string>
     <string name="notifications_muted">通知，已静音</string>

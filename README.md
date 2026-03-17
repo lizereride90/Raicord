@@ -1,24 +1,24 @@
-# Bluecord
-Source Code for Bluecord
+# Raicord
+Source Code for Raicord
 
-All source code to build Bluecord is fully present, and you can verify its legitimacy for yourself.
+All source code to build Raicord is fully present, and you can verify its legitimacy for yourself.
 Anyone claiming otherwise is intentionally lying to you for their own benefit (given this repo exists) and / or cannot write a single line of code if you asked them.
 
 # Download
-[Tap here to download Bluecord](https://bluesmods.com/bluecord/) and get started.<br>
+[Tap here to download Raicord](https://bluesmods.com/bluecord/) and get started.<br>
 The app has built-in update mechanisms, so you'll probably only need to do this once.
 
 # Notes
-If you enjoy the Bluecord project (of which many dozens of hours were put into), consider starring this project. Contributions are also highly encouraged and appreciated.
+If you enjoy the Raicord project (of which many dozens of hours were put into), consider starring this project. Contributions are also highly encouraged and appreciated.
 
 If you are inspired by, or end up copying or using any of the works contained herein, please give credit by linking back to this repository.
 
 # Building / Installing / Making Patches
-[BluecordPatcher](https://github.com/bluemods/BluecordPatcher/) allows you to build from source, create patches and more.
+[RaicordPatcher](https://github.com/bluemods/RaicordPatcher/) allows you to build from source, create patches and more.
 Visit this repository to set everything up.
 
 # Verifying Downloads
-Bluecord 2.3 and up are signed with my signature in the V3 scheme.
+Raicord 2.3 and up are signed with my signature in the V3 scheme.
 
 To verify that the APK was signed by me and not tampered with, get [apksigner](https://developer.android.com/tools/apksigner) (version 0.9 or newer) and use the following command:
 

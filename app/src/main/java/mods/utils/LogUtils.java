@@ -9,7 +9,7 @@ import java.io.ByteArrayOutputStream;
 
 public final class LogUtils {
 
-    private static final String BASE_TAG_NAME = "[Bluecord]";
+    private static final String BASE_TAG_NAME = "[Raicord]";
 
     public static void log(@NotNull String tag, @Nullable String content) {
         if (content == null) content = "[NULL]";

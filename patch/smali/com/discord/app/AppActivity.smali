@@ -1565,7 +1565,7 @@
     invoke-super {p0}, Lcom/discord/app/AppTransitionActivity;->onResume()V
 
     invoke-static {p0}, Lmods/activity/BlueSettingsActivity;->refreshIfNeeded(Landroid/app/Activity;)V
-    invoke-static {p0}, Lmods/activity/update/BluecordUpdater;->checkFromLaunch(Landroid/app/Activity;)V
+    invoke-static {p0}, Lmods/activity/update/RaicordUpdater;->checkFromLaunch(Landroid/app/Activity;)V
 
     .line 2
     sget-object v0, Lb/a/d/j;->g:Lb/a/d/j;

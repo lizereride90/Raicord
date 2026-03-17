@@ -12,7 +12,7 @@ class UpdatePreference(context: Context, attrs: AttributeSet?) : Preference(cont
     init {
         setSummary("Current ${Strings.getAppName()} Version: ${URLConstants.getVersionString()}")
         setOnPreferenceClickListener {
-            BluecordUpdater.checkFromPreferences(getContext().extractActivity!!)
+            RaicordUpdater.checkFromPreferences(getContext().extractActivity!!)
             true
         }
     }

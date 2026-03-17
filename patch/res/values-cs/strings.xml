@@ -4371,7 +4371,7 @@ Ztraceno: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Získej přístup k hromadě pozic pro smajlíky a vyjádři se, jak potřebuješ.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Konečně si rozumíme… díky samolepkám.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Největší velikosti souborů pro sdílení těch nejkvalitnějších memů. **(Pouze na serveru)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Přizpůsob si adresy URL pozvánek na svůj server s **discord.gg/____. ([Máme nějaká pravidla]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Přizpůsob si adresy URL pozvánek na svůj server s **raicord.app/invite/____. ([Máme nějaká pravidla]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animovaná ikona serveru</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Vlastní pozadí pozvánky na server</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Streamuj svým přátelům ve vysoké kvalitě.</string>
@@ -6440,7 +6440,7 @@ připnuté zprávy… zatím."</string>
     <string name="notification_reply_failed">Nepodařilo se odpovědět {recipient}</string>
     <string name="notification_reply_success">Odpověděl jsi {recipient}</string>
     <string name="notification_settings">Nastavení upozornění</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Někdo hraje</string>
     <string name="notifications">Oznámení</string>
     <string name="notifications_muted">Oznámení, ztlumeno</string>

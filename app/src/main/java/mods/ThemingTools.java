@@ -30,7 +30,7 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.bluecord.R;
+import com.raicord.R;
 import com.discord.BuildConfig;
 import com.discord.api.channel.Channel;
 import com.discord.api.message.reaction.MessageReactionUpdate;
@@ -65,7 +65,7 @@ import mods.preference.EmoteMode;
 import mods.preference.Prefs;
 import mods.preference.QuickAccessPrefs;
 import mods.utils.AuthenticationUtils;
-import mods.utils.BluecordSmaliVerifier;
+import mods.utils.RaicordSmaliVerifier;
 import mods.utils.CacheUtils;
 import mods.utils.ClipboardUtil;
 import mods.utils.EmptyUtils;
@@ -86,7 +86,7 @@ public class ThemingTools {
     public static final int KIK_BLUE_COLOR = Color.parseColor("#ff26beff");
 
     public static void init(Activity activity) {
-        BluecordSmaliVerifier.verifyProblematicClasses();
+        RaicordSmaliVerifier.verifyProblematicClasses();
         Prefs.migrateLegacyPrefs();
         Colors.init();
         QuickAccessPrefs.reload();
@@ -101,7 +101,7 @@ public class ThemingTools {
         }
         typeface = CustomFont.load();
         HeadphoneUnpluggedReceiver.setup(App.app);
-        CacheUtils.clearBluecordCache();
+        CacheUtils.clearRaicordCache();
     }
 
     private static void setupWindowColors(Activity activity) {
@@ -302,7 +302,7 @@ public class ThemingTools {
         return Prefs.getBoolean(PreferenceKeys.ALWAYS_SHOW_EMBED_LINKS, false);
     }
 
-    public static CharSequence setBluecordVersion(CharSequence text) {
+    public static CharSequence setRaicordVersion(CharSequence text) {
         if (text == null || !"{BLUECORD_VERSION}".equalsIgnoreCase(text.toString()))
             return text;
 
@@ -310,7 +310,7 @@ public class ThemingTools {
     }
 
     public static void setWelcomeText(final TextView tv, final CharSequence text) {
-        if (text.toString().equalsIgnoreCase("Welcome To Bluecord")) {
+        if (text.toString().equalsIgnoreCase("Welcome To Raicord")) {
             ValueAnimator va = new ValueAnimator();
             va.setIntValues(
                     Color.parseColor("#6d41ba"),
@@ -471,7 +471,7 @@ public class ThemingTools {
                 : BuildConfig.COMMIT_HASH.substring(0, 6);
 
         SpannableStringBuilder sb = new SpannableStringBuilder();
-        sb.append("Bluecord ");
+        sb.append("Raicord ");
         int pos = sb.length();
         sb.append("v").append(URLConstants.getVersionString());
         // sb.setSpan(new StyleSpan(Typeface.BOLD), pos, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);

@@ -189,7 +189,7 @@
 
     invoke-static {v0, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-	invoke-static {p1}, Lmods/ThemingTools;->setBluecordVersion(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+	invoke-static {p1}, Lmods/ThemingTools;->setRaicordVersion(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
 	move-result-object p1
 

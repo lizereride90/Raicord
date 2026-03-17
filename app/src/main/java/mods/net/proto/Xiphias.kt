@@ -1,7 +1,5 @@
 package mods.net.proto
 
-import com.google.protobuf.MessageLite
-import com.google.protobuf.Parser
 import mods.DiscordTools
 import mods.constants.Constants
 import mods.constants.URLConstants
@@ -20,6 +18,7 @@ import mods.net.Net.client
 import mods.promise.Promise
 import mods.promise.runOnMainThread
 import java.io.IOException
+import java.io.InputStream
 
 object Xiphias {
 
@@ -34,16 +33,15 @@ object Xiphias {
     }
 
     @JvmStatic
-    fun <T> send(service: String, method: String, message: MessageLite, parser: Parser<T>): Promise<T> {
+    fun <T> send(service: String, method: String, message: ByteArray, parser: (InputStream) -> T): Promise<T> {
         val p = Promise<T>()
         val r = RequestBuilder().apply {
             val url = URLConstants.apiLink("xiphias")
-            val msg = message.toByteArray()
-            if (msg.isEmpty()) {
+            if (message.isEmpty()) {
                 get(url)
             } else {
                 setHeader("Content-Type", CONTENT_TYPE)
-                post(message.toByteArray().toRequestBody())
+                post(message.toRequestBody())
             }
             url(url)
             headers(headers)
@@ -63,7 +61,7 @@ object Xiphias {
             }
 
             try {
-                p.resolve(response.p!!.c().u0().use { input -> parser.parseFrom(input) })
+                p.resolve(response.p!!.c().u0().use(parser))
             } catch (e: Throwable) {
                 p.fail(e)
             }

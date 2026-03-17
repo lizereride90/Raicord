@@ -4390,7 +4390,7 @@ Verloren: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Krijg toegang tot een enorme lading emoji-slots om jezelf heel precies te kunnen uitdrukken.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Jij zegt het met stickers!</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">De grootste bestandgroottes voor het delen van memes van de hoogste kwaliteit. **(Alleen binnen de server)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Pas de uitnodigingslink voor je server aan met **discord.gg/____. ([Er gelden wel wat regels]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Pas de uitnodigingslink voor je server aan met **raicord.app/invite/____. ([Er gelden wel wat regels]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Geanimeerd servericoon toevoegen</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Aangepaste achtergrond serveruitnodiging</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Stream naar je vrienden in hoge kwaliteit.</string>
@@ -6459,7 +6459,7 @@ vastgepinde berichten, althans nog niet."</string>
     <string name="notification_reply_failed">Niet gelukt om te antwoorden op {recipient}</string>
     <string name="notification_reply_success">Geantwoord op {recipient}</string>
     <string name="notification_settings">Meldinginstellingen</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Iemand speelt nu</string>
     <string name="notifications">Meldingen</string>
     <string name="notifications_muted">Meldingen, gedempt</string>

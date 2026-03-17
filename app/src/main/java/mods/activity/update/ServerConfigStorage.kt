@@ -1,9 +1,8 @@
 package mods.activity.update
 
-import com.google.protobuf.Duration
 import mods.DiscordTools
 import mods.constants.PreferenceKeys
-import mods.net.proto.BluecordService
+import mods.net.proto.RaicordService
 import mods.preference.Prefs
 import mods.promise.Promise
 import mods.promise.asResolvedPromise
@@ -20,23 +19,19 @@ object ServerConfigStorage {
 
     private val TAG = ServerConfigStorage::class.java.simpleName
 
-    private val DEFAULT_CONFIG = PollResponse.getDefaultInstance()
+    private val DEFAULT_CONFIG = PollResponse()
 
-    private val file by lazy {
-        File(DiscordTools.context.filesDir, "config.pb")
-    }
+    private val file by lazy { File(DiscordTools.context.filesDir, "config.pb") }
 
     private val config = OnceFunc {
         runCatchingOrLog {
-            file.inputStream().use { PollResponse.parseFrom(it) }
-        }.getOrElse {
-            DEFAULT_CONFIG
-        }
+            load(file)
+        }.getOrElse { DEFAULT_CONFIG }
     }
 
     @JvmStatic
     val pollingIntervalMs: Long
-        get() = config.get()?.pollingInterval?.toMillis()?.takeIf { it > 0L }
+        get() = config.get()?.pollingIntervalMs?.takeIf { it > 0L }
             ?: TimeUnit.MINUTES.toMillis(30)
 
     @JvmStatic
@@ -70,19 +65,28 @@ object ServerConfigStorage {
 
     @JvmStatic
     private fun pollServer(): Promise<PollResponse> {
-        return BluecordService.poll().doOnSuccess {
-            runCatchingOrLog { file.outputStream().use { os -> it.writeTo(os); os.flush() } }
+        return RaicordService.poll().doOnSuccess {
+            runCatchingOrLog { store(it) }
             config.set(it)
             DevBadge.update()
-            // Only try to poll again after the specified delay by server
             Prefs.setLong(
                 PreferenceKeys.WEBSITE_LAST_FETCHED_TIMESTAMP,
-                StoreUtils.getServerSyncedTime() + it.pollingInterval.toMillis()
+                StoreUtils.getServerSyncedTime() + (it.pollingIntervalMs ?: 0L)
             )
         }.doOnError {
             LogUtils.log(TAG, "failed to poll", it)
         }
     }
 
-    private fun Duration.toMillis(): Long = (seconds * 1000) + (nanos % 1000000)
+    // Stub helpers since proto is stubbed
+    private fun store(resp: PollResponse) {
+        runCatchingOrLog {
+            file.outputStream().use { os -> os.write(ByteArray(0)) }
+        }
+    }
+
+    private fun load(file: File): PollResponse {
+        // no-op: return empty stub
+        return PollResponse()
+    }
 }

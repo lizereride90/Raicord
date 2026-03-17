@@ -15,7 +15,7 @@ data class Event(
     @SerializedName("data") val data: JsonObject,
 ) {
 
-    // These will remain null in Bluecord
+    // These will remain null in Raicord
     data class ActivityInfo(
         @SerializedName("last") val last: String?,
         @SerializedName("foreground") val foreground: String?

@@ -2,7 +2,7 @@ package mods.constants;
 
 /**
  *  Contains most of the preference keys that correspond to the toggles / settings
- *  settable in the Bluecord Mods screen.
+ *  settable in the Raicord Mods screen.
  *  This is useful for making sure the preference keys match up with the corresponding code.
  */
 public final class PreferenceKeys {

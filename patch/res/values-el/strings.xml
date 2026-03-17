@@ -4372,7 +4372,7 @@ Avatar"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Αποκτήστε πρόσβαση σε ένα σωρό από θέσεις για emoji για όλες σας τις ανάγκες έκφρασής σας.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Τώρα μιλάμε… αλλά με αυτοκόλλητα.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Τα μεγαλύτερα μεγέθη αρχείων για την υψηλότερη ποιότητα όταν μοιράζεστε memes. **(Μόνο σε διακομιστή)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Προσαρμόστε τις προσκλήσεις URL στον διακομιστή σας με το **discord.gg/____. ([Έχουμε κάποιους κανόνες]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Προσαρμόστε τις προσκλήσεις URL στον διακομιστή σας με το **raicord.app/invite/____. ([Έχουμε κάποιους κανόνες]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Κινούμενο εικονίδιο διακομιστή</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Προσαρμοσμένο φόντο πρόσκλησης στον διακομιστή</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Στρίμαρε την εικόνα σου στους φίλους σου σε υψηλή ευκρίνεια.</string>
@@ -6441,7 +6441,7 @@ Avatar"</string>
     <string name="notification_reply_failed">Δεν απάντησε στον {recipient}</string>
     <string name="notification_reply_success">Απάντησε στον {recipient}</string>
     <string name="notification_settings">Ρυθμίσεις ειδοποιήσεων</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Κάποιος παίζει</string>
     <string name="notifications">Ειδοποιήσεις</string>
     <string name="notifications_muted">Ειδοποιήσεις, σε σίγαση</string>

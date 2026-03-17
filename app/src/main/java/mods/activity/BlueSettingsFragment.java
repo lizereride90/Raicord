@@ -30,7 +30,7 @@ public class BlueSettingsFragment extends PreferenceFragment {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         int overrideXml = this.getArguments() == null ? 0 : this.getArguments().getInt(BlueSettingsActivity.EXTRA_PREF_KEY, 0);
-        addPreferencesFromResource(overrideXml == 0 ? com.bluecord.R.xml.prefs_base : overrideXml);
+        addPreferencesFromResource(overrideXml == 0 ? com.raicord.R.xml.prefs_base : overrideXml);
         handleBackgroundState();
     }
 

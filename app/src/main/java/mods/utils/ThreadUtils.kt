@@ -18,11 +18,11 @@ object ThreadUtils {
 
     @JvmField
     val scheduler: ScheduledExecutorService =
-        newSingleThreadScheduledExecutor("BluecordScheduler")
+        newSingleThreadScheduledExecutor("RaicordScheduler")
 
     @JvmField
     val sharedExecutor: ExecutorService =
-        newFixedThreadPool("BluecordExecutor", 8)
+        newFixedThreadPool("RaicordExecutor", 8)
 
     @JvmStatic
     fun isOnUiThread(): Boolean {

@@ -4372,7 +4372,7 @@ Pasitraukė: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Turėk prieigą prie įvairių emoji visiems saviraiškos poreikiams.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Dabar kita kalba…bet su lipdukais.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Didžiausio dydžio failai, kad galima būtų kokybiškiausiai dalytis. **(Tik serveryje)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Asmeniškai pritaikyk pakvietimo į serverį URL naudodamas **discord.gg/____. ([Taikome tam tikras taisykles]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Asmeniškai pritaikyk pakvietimo į serverį URL naudodamas **raicord.app/invite/____. ([Taikome tam tikras taisykles]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animuota serverio piktograma</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Pasirinktinis serverio pakvietimo fonas</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Transliuok savo draugams aukšta kokybe.</string>
@@ -6441,7 +6441,7 @@ jokių prisegtų žinučių… Kol kas."</string>
     <string name="notification_reply_failed">Nepavyko atsakyti {recipient}</string>
     <string name="notification_reply_success">Atsakė į {recipient}</string>
     <string name="notification_settings">Pranešimų Nustatymai</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Kažkas Žaidžia</string>
     <string name="notifications">Pranešimai</string>
     <string name="notifications_muted">Pranešimai, nutildyti</string>

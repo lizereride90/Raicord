@@ -1,6 +1,6 @@
 package mods.parser.polls
 
-import com.bluecord.R
+import com.raicord.R
 import com.discord.widgets.chat.list.FragmentLifecycleListener
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapter
 import com.discord.widgets.chat.list.adapter.WidgetChatListItem

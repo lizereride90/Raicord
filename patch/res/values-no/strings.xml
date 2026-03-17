@@ -4262,7 +4262,7 @@ Mistet: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Få tilgang til haugevis av plasser for emojier for alle behovene dine for å uttrykke deg.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Nå snakker vi … men med klistremerker.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">De største filstørrelsene for meme-deling i høyeste kvalitet. **(Bare på serveren)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Tilpass nettadressene for invitasjon til serveren din med **discord.gg/____. ([Vi har noen regler]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Tilpass nettadressene for invitasjon til serveren din med **raicord.app/invite/____. ([Vi har noen regler]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animert serverikon</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Egendefinert bakgrunn for serverinvitasjonen</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Strøm i bedre kvalitet til venner.</string>
@@ -6283,7 +6283,7 @@ ingen festede meldinger … enda."</string>
     <string name="notification_reply_failed">Kunne ikke svare på {recipient}</string>
     <string name="notification_reply_success">Svarte på {recipient}</string>
     <string name="notification_settings">Varslingsinnstillinger</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Noen spiller</string>
     <string name="notifications">Varsler</string>
     <string name="notifications_muted">Varslinger er dempet</string>

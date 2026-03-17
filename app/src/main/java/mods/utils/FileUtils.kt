@@ -35,7 +35,7 @@ object FileUtils {
             } else {
                 Environment.getExternalStorageDirectory()
             }
-            return File(base, "Bluecord").apply { mkdirs() }
+            return File(base, "Raicord").apply { mkdirs() }
         }
 
     @JvmStatic
@@ -56,7 +56,7 @@ object FileUtils {
 
     @JvmStatic
     val tempDir: File
-        get() = File(cacheDir, "bluecord_temp").apply { mkdirs() }
+        get() = File(cacheDir, "raicord_temp").apply { mkdirs() }
 
     @JvmStatic
     val voiceCacheDir: File

@@ -4370,7 +4370,7 @@ Perdus : {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">"Profite de tonnes d'emplacements d'émojis pour exprimer tout ce que tu veux."</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Maintenant on discute… mais avec des autocollants.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">"La plus grande taille d'upload de fichiers qui soit afin de profiter d'un partage de mèmes de haute qualité. **(Seulement dans le serveur)**"</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">"Personnalise les URL d'invitations à ton serveur avec **discord.gg/____. ([Il existe certaines règles à respecter]({helpdeskArticle}))**"</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">"Personnalise les URL d'invitations à ton serveur avec **raicord.app/invite/____. ([Il existe certaines règles à respecter]({helpdeskArticle}))**"</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Icône de serveur animée</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">"Arrière-plan d'invitation du serveur personnalisé"</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Streame à tes amis en haute définition.</string>
@@ -6437,7 +6437,7 @@ de message épinglé… pour l'instant."</string>
     <string name="notification_reply_failed">Impossible de répondre à {recipient}</string>
     <string name="notification_reply_success">Réponse envoyée à {recipient}</string>
     <string name="notification_settings">Paramètres de notification</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">"Quelqu'un joue !"</string>
     <string name="notifications">Notifications</string>
     <string name="notifications_muted">Notifications rendues muettes</string>

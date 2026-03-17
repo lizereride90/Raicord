@@ -2,7 +2,7 @@ package mods.db
 
 import android.database.sqlite.SQLiteDatabase
 
-class BluecordDatabase(
+class RaicordDatabase(
     private val db: SQLiteDatabase
 ) {
     val isHealthy: Boolean

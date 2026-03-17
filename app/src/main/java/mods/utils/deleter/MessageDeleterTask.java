@@ -5,7 +5,7 @@ import android.net.Uri;
 
 import androidx.annotation.Nullable;
 
-import com.bluecord.R;
+import com.raicord.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

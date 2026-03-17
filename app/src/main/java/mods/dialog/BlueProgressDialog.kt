@@ -13,7 +13,7 @@ class BlueProgressDialog @JvmOverloads constructor(
         private val TAG = BlueProgressDialog::class.java.simpleName
     }
     init {
-        setIcon(com.bluecord.R.drawable.bluecord_24dp)
+        setIcon(com.raicord.R.drawable.bluecord_24dp)
     }
 
     override fun show() {

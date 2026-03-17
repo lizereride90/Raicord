@@ -12,7 +12,7 @@ import android.widget.TextView
 import androidx.annotation.DrawableRes
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
-import com.bluecord.R
+import com.raicord.R
 import mods.view.Colors
 import mods.view.dp
 

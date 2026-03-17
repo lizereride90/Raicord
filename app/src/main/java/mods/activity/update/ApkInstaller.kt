@@ -74,7 +74,7 @@ object ApkInstaller {
             }
 
             override fun onDownloaded(file: File) {
-                BluecordUpdater.markUpdateShown(data)
+                RaicordUpdater.markUpdateShown(data)
                 spinner.hide()
                 install(activity, file, this)
             }

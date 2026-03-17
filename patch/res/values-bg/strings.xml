@@ -4372,7 +4372,7 @@
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Осигури си достъп до цял камион от слотове за емотикони за всичките ти начини на самоизява.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Сега вече си говорим… Но със стикери.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Най-големият размер на файлове за най-висококачественото споделяне на мемета. **(Само в сървър)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Персонализирай URL поканите за твоя сървър с **discord.gg/____. ([Имаме някои правила]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Персонализирай URL поканите за твоя сървър с **raicord.app/invite/____. ([Имаме някои правила]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Анимирана иконка на сървъра</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Персонализиран фон на покана за сървър</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Стриймвай към приятелите си с високо качество.</string>
@@ -6441,7 +6441,7 @@
     <string name="notification_reply_failed">Неуспешен отговор на {recipient}</string>
     <string name="notification_reply_success">Отговори на {recipient}</string>
     <string name="notification_settings">Настройки за известията</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Някой играе</string>
     <string name="notifications">Известия</string>
     <string name="notifications_muted">Известия, заглушени</string>

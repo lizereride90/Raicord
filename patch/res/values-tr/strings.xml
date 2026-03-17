@@ -4398,7 +4398,7 @@ Kaybedilen: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Kendini ifade etmeye yönelik tüm ihtiyaçların için onlarca emoji yerine sahip ol.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Bana bu çıkartmalarla gel!</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">En yüksek kalitede meme paylaşımı için daha büyük dosya boyutları. **(Sadece sunucu içinde)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Sunucunun davet URL adreslerini **discord.gg/____ ile özelleştir. ([Bazı kurallarımız var]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Sunucunun davet URL adreslerini **raicord.app/invite/____ ile özelleştir. ([Bazı kurallarımız var]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Hareketli sunucu simgesi</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Özel sunucu daveti arka planı</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Arkadaşlarına yüksek kalitede yayın yap.</string>
@@ -6467,7 +6467,7 @@ hiçbir sabitlenmiş mesajı yok… henüz."</string>
     <string name="notification_reply_failed">{recipient} kişisine yanıt verilemedi</string>
     <string name="notification_reply_success">{recipient} kişisine yanıt verildi</string>
     <string name="notification_settings">Bildirim Ayarları</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Birileri Oynuyor</string>
     <string name="notifications">Bildirimler</string>
     <string name="notifications_muted">Bildirimler susturuldu</string>

@@ -4282,7 +4282,7 @@ Perdidos: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Consigue acceso a montones de emojis para expresarte de todas las formas posibles.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Tenemos que hablar…, pero con pegatinas.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Los mayores tamaños de archivo para compartir memes de la más alta calidad. **(Solo en el servidor)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Personaliza las URLs de las invitaciones para tu servidor con **discord.gg/____. ([Tenemos algunas normas]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Personaliza las URLs de las invitaciones para tu servidor con **raicord.app/invite/____. ([Tenemos algunas normas]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Icono de servidor animado</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Fondo de invitación al servidor personalizado</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Transmite para tus amigos en alta calidad.</string>
@@ -6302,7 +6302,7 @@ ningún mensaje fijado… aún."</string>
     <string name="notification_reply_failed">No se ha podido responder a {recipient}</string>
     <string name="notification_reply_success">Has respondido a {recipient}</string>
     <string name="notification_settings">Ajustes de notificaciones</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Alguien está jugando</string>
     <string name="notifications">Notificaciones</string>
     <string name="notifications_muted">Notificaciones silenciadas</string>

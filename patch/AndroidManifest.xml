@@ -128,7 +128,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:host="discord.gift" android:pathPattern="/.*" android:scheme="https"/>
-                <data android:host="discord.gg" android:pathPattern="/.*" android:scheme="https"/>
+                <!-- Removed raicord.app/invite deep link for Raicord branding -->
                 <data android:host="discord.new" android:pathPattern="/.*" android:scheme="https"/>
             </intent-filter>
             <intent-filter>

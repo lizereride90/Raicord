@@ -4372,7 +4372,7 @@ Discord Nitro सब्सक्रिप्शन के साथ, 200 सर�
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">अपनी सभी एक्सप्रेसिंग ज़रूरतों के लिए अपने आप को इमोजी स्लॉट के ट्रकलोड का एक्सेस दें.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">अब हम बात तो कर रहे हैं… पर स्टिकर के साथ.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">हाई क्वालिटी वाले मीम को शेयर करने के लिए सबसे बड़े फ़ाइल साइज़. **(सिर्फ सर्वर में)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">**discord.gg/____के साथ अपने सर्वर पर इनवाइट URLs को कस्टमाइज़ करें. ([हमारे कुछ नियम हैं]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">**raicord.app/invite/____के साथ अपने सर्वर पर इनवाइट URLs को कस्टमाइज़ करें. ([हमारे कुछ नियम हैं]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">एनिमेटेड सर्वर आइकन</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">कस्टम सर्वर इनवाइट बैकग्राउंड</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">अपने फ्रेंड्स को हाई क्वालिटी में स्ट्रीम करें.</string>
@@ -6440,7 +6440,7 @@ Discord के बारे में और ज़्यादा जानन�
     <string name="notification_reply_failed">{recipient} को जवाब नहीं दे पाए</string>
     <string name="notification_reply_success">{recipient} को जवाब दिया गया</string>
     <string name="notification_settings">नोटिफिकेशन सेटिंग</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">"कोई खेल रहा है'"</string>
     <string name="notifications">नोटिफिकेशन</string>
     <string name="notifications_muted">नोटिफिकेशन, म्यूट किए गए</string>

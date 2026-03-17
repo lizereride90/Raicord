@@ -10,7 +10,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.graphics.scale
-import com.bluecord.R
+import com.raicord.R
 
 class ActionBar : LinearLayout {
     lateinit var backButtonView: ImageView

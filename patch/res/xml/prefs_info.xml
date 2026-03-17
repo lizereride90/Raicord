@@ -3,9 +3,9 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
     <mods.activity.update.UpdatePreference android:title="Check for Update" android:summary="" />
     <mods.preference.HtmlDialogPreference android:title="Patch Notes" android:key="patch" android:summary="See what's changed and what's new!" />
-    <mods.preference.HtmlDialogPreference android:title="About Bluecord" android:key="about" android:summary="In-depth information and FAQ" />
+    <mods.preference.HtmlDialogPreference android:title="About Raicord" android:key="about" android:summary="In-depth information and FAQ" />
     <mods.preference.FeatureRequest android:title="Feature Request" android:key="request" android:summary="Have an idea (not related to Nitro) that you'd like to see added? Let me know here!" />
-    <mods.preference.HtmlDialogPreference android:title="Donate" android:key="donate" android:summary="Support the Bluecord project" />
+    <mods.preference.HtmlDialogPreference android:title="Donate" android:key="donate" android:summary="Support the Raicord project" />
     <Preference android:title="Official Website">
         <intent android:action="android.intent.action.VIEW" android:data="https://bluesmods.com" />
     </Preference>
@@ -13,6 +13,6 @@
     <Preference android:title="Official YouTube Channel" android:summary="Check here for new videos!">
         <intent android:action="android.intent.action.VIEW" android:data="https://www.youtube.com/channel/UCXc1YJqHqwi8psfYynTFLGA" />
     </Preference>
-    <mods.preference.OpenLink android:title="Source Code" android:summary="View the source code of Bluecord on GitHub" android:key="bluecord_source" />
-    <mods.preference.EmptyPreference android:title="Bluecord made with love by Blue\nhttps://bluesmods.com" />
+    <mods.preference.OpenLink android:title="Source Code" android:summary="View the source code of Raicord on GitHub" android:key="bluecord_source" />
+    <mods.preference.EmptyPreference android:title="Raicord made with love by Blue\nhttps://bluesmods.com" />
 </PreferenceScreen>

@@ -4371,7 +4371,7 @@ Elvesztett: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Biztosíts magadnak hozzáférést a teherautónyi emotikon helyhez az összes kifejezési igényedhez.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Ez a beszéd… csak éppen matricákkal.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">A legnagyobb fájlméretek a legjobb minőségű képmegosztáshoz. **(Csak szerveren)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Tedd egyénivé a meghívó URL-eket a szerveredhez a **discord.gg/____. ([Van néhány szabályunk]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Tedd egyénivé a meghívó URL-eket a szerveredhez a **raicord.app/invite/____. ([Van néhány szabályunk]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animált szerver ikon</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Egyedi szervermeghívó háttér</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Közvetíts a barátaidnak kiváló minőségben!</string>
@@ -6440,7 +6440,7 @@ kitűzött üzenete… egyelőre."</string>
     <string name="notification_reply_failed">Nem sikerült elküldeni a választ {recipient} felhasználónak</string>
     <string name="notification_reply_success">Válasz {recipient} felhasználónak elküldve</string>
     <string name="notification_settings">Értesítési beállítások</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Valaki játszadozik</string>
     <string name="notifications">Értesítések</string>
     <string name="notifications_muted">Értesítések elnémítva</string>

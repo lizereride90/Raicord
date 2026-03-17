@@ -29,5 +29,5 @@
 	<mods.preference.ColorPicker android:enabled="true" android:title="Incoming Name Color" android:key="incoming.author.color" android:summary="Select the name color representing other people" android:defaultValue="#ffffffff" />
 	<mods.preference.ColorPicker android:enabled="true" android:title="Outgoing Name Color" android:key="outgoing.author.color" android:summary="Select the name color of your message" android:defaultValue="#ffffffff" />
     <mods.preference.RainbowTextPreference android:title="Rainbow Colors" android:summary="This allows you to animate text and typing box colors.\nNOTE: This will override your other color settings if enabled" />
-    <mods.preference.EmptyPreference android:title="Bluecord made with love by Blue\nhttps://bluesmods.com" />
+    <mods.preference.EmptyPreference android:title="Raicord made with love by Blue\nhttps://bluesmods.com" />
 </PreferenceScreen>

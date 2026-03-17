@@ -3,7 +3,7 @@ package mods.utils
 import android.annotation.SuppressLint
 import android.view.View
 import androidx.annotation.DrawableRes
-import com.bluecord.R
+import com.raicord.R
 import com.discord.views.UsernameView
 import mods.activity.update.ServerConfigStorage
 
@@ -13,7 +13,7 @@ object DevBadge {
     const val VERIFIED_DEV_BADGE = R.drawable.ic_verified_10dp
 
     private val badgeList = OnceFunc {
-        ServerConfigStorage.loadNow().devIdsList.toLongArray()
+        ServerConfigStorage.loadNow().devIds.toLongArray()
     }
 
     @JvmStatic
@@ -22,7 +22,7 @@ object DevBadge {
         if (needsBadge(id)) {
             val tv = view.j.b
             tv.visibility = View.VISIBLE
-            tv.text = "Bluecord Dev"
+            tv.text = "Raicord Dev"
             tv.setCompoundDrawablesWithIntrinsicBounds(VERIFIED_DEV_BADGE, 0, 0, 0)
         }
     }

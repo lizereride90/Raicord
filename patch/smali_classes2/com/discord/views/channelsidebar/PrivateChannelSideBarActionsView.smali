@@ -83,7 +83,7 @@
 
     move-result-object p2
 
-    # Reverted, see: https://github.com/bluemods/Bluecord/issues/54
+    # Reverted, see: https://github.com/bluemods/Raicord/issues/54
     # invoke-static {p2}, Lmods/anti/AntiButtons;->hideCallButton(Landroid/view/View;)V
 
     move-object v2, p2
@@ -125,7 +125,7 @@
 
     move-result-object p2
 
-    # Reverted, see: https://github.com/bluemods/Bluecord/issues/54
+    # Reverted, see: https://github.com/bluemods/Raicord/issues/54
     # invoke-static {p2}, Lmods/anti/AntiButtons;->hideCallButton(Landroid/view/View;)V
 
     move-object v5, p2

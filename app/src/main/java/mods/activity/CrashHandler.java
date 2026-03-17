@@ -76,7 +76,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
             }
 
             // Try to write it to disk so the user can submit it if uploading fails
-            try (FileOutputStream fos = new FileOutputStream(new File(FileUtils.getBluecordDir(), "last_crash.txt"))) {
+            try (FileOutputStream fos = new FileOutputStream(new File(FileUtils.getRaicordDir(), "last_crash.txt"))) {
                 fos.write(Log.getStackTraceString(throwable).getBytes(StandardCharsets.UTF_8));
                 fos.flush();
             } catch (Throwable e) {

@@ -20,7 +20,7 @@ import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import com.bluecord.R;
+import com.raicord.R;
 import com.discord.api.channel.Channel;
 import com.discord.api.message.attachment.MessageAttachment;
 import com.discord.api.user.UserProfile;
@@ -212,7 +212,7 @@ public class SheetConfig {
         }
 
         if (
-                headerViewId == com.bluecord.R.id.user_settings_profile_header_view ||
+                headerViewId == com.raicord.R.id.user_settings_profile_header_view ||
                 channelOrGuildId <= 0 || authorId <= 0 ||
                 !Prefs.getBoolean(PreferenceKeys.SHOW_LAST_MESSAGE, false)
         ) {
@@ -278,15 +278,15 @@ public class SheetConfig {
 
             sb.setSpan(new AbsoluteSizeSpan(14, true), currentCharCount, nextCharCount, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             sb.setSpan(new ForegroundColorSpan(ThemingTools.isDarkModeOn() ? Color.LTGRAY : Color.BLACK), currentCharCount, nextCharCount, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-            sb.setSpan(new BluecordMarkingSpan(), currentCharCount, nextCharCount, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            sb.setSpan(new RaicordMarkingSpan(), currentCharCount, nextCharCount, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 
             tv.setVisibility(View.VISIBLE);
-            tv.setTypeface(ResourcesCompat.getFont(DiscordTools.getContext(), com.bluecord.R.font.whitney_semibold));
+            tv.setTypeface(ResourcesCompat.getFont(DiscordTools.getContext(), com.raicord.R.font.whitney_semibold));
             tv.setDraweeSpanStringBuilder(sb);
         });
     }
 
-    static class BluecordMarkingSpan extends CharacterStyle {
+    static class RaicordMarkingSpan extends CharacterStyle {
 
         @Override
         public void updateDrawState(TextPaint tp) {}

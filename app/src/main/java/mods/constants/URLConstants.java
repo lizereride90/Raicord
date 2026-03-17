@@ -11,13 +11,13 @@ import mods.activity.update.ServerConfigStorage;
 
 public final class URLConstants {
 
-    public static final String GIT_REPO_URL = "https://github.com/bluemods/Bluecord";
+    public static final String GIT_REPO_URL = "https://github.com/raicord/Raicord";
 
     public static final boolean IS_BETA =
             DiscordTools.getContext()
                     .getPackageName()
                     .toLowerCase()
-                    .startsWith("com.bluecordbeta");
+                    .startsWith("com.raicordbeta");
 
     private static final String BASE_URL = "https://bluesmods.com";
 

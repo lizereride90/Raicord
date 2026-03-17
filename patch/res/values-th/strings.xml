@@ -4372,7 +4372,7 @@
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">เข้าถึงสล็อตอีโมจิเป็นตันสำหรับการแสดงความรู้สึกที่คุณต้องการ</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">คุยกันมันต้องอย่างนี้ด้วย… แบบมีสติกเกอร์</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">อัพโหลดไฟล์ขนาดใหญ่ที่สุดสำหรับเพื่อประสบการณ์แชร์มีมคุณภาพสูงสุด **(เฉพาะในเซิร์ฟเวอร์)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">ปรับแต่ง URLs คำเชิญสำหรับเซิร์ฟเวอร์ของคุณด้วย **discord.gg/____ ([เรามีกฎบางอย่าง]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">ปรับแต่ง URLs คำเชิญสำหรับเซิร์ฟเวอร์ของคุณด้วย **raicord.app/invite/____ ([เรามีกฎบางอย่าง]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">ไอค่อนเซิร์ฟเวอร์แบบเคลื่อนไหว</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">ปรับภาพพื้นหลังคำเชิญของเซิร์ฟเวอร์</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">สตรีมกับเพื่อนของคุณแบบคุณภาพสูง</string>
@@ -6441,7 +6441,7 @@ Hub ไม่มีส่วนเกี่ยวข้องหรือได�
     <string name="notification_reply_failed">ตอบกลับ {recipient} ไม่สำเร็จ</string>
     <string name="notification_reply_success">ตอบกลับ {recipient}</string>
     <string name="notification_settings">ตั้งค่าการแจ้งเตือน</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">ใครบางคนกำลังเล่น</string>
     <string name="notifications">การแจ้งเตือน</string>
     <string name="notifications_muted">ปิดแจ้งเตือนอยู่</string>

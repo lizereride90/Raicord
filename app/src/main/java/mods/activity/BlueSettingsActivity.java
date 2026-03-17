@@ -73,7 +73,7 @@ public class BlueSettingsActivity extends AppCompatActivity implements SharedPre
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
 
-        setTheme(AntiDiscordRebrand.isEnabled() ? com.bluecord.R.style.PrefsTheme_NoRebrand : com.bluecord.R.style.PrefsTheme);
+        setTheme(AntiDiscordRebrand.isEnabled() ? com.raicord.R.style.PrefsTheme_NoRebrand : com.raicord.R.style.PrefsTheme);
 
         Prefs.getPreferences().registerOnSharedPreferenceChangeListener(this);
 
@@ -152,7 +152,7 @@ public class BlueSettingsActivity extends AppCompatActivity implements SharedPre
             ToastUtil.customToast(this, "Storage permissions are needed to use this feature!");
         } else if (!this.needsRestart && StoragePermissionUtils.needsRestartForKey(s)) {
             this.needsRestart = true;
-            ToastUtil.customToast(this, "Bluecord will restart to apply changes after exiting");
+            ToastUtil.customToast(this, "Raicord will restart to apply changes after exiting");
         }
     }
 }

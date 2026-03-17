@@ -6,7 +6,7 @@ import mods.proto.PollResponse
 import mods.proto.UpdateInfo
 
 val PollResponse.hasUpdate: Boolean
-    get() = hasUpdateInfo() && updateInfo.hasUpdate
+    get() = updateInfo?.hasUpdate == true
 
 val UpdateInfo.hasUpdate: Boolean
     get() = runCatchingOrLog {

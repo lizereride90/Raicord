@@ -65,7 +65,7 @@ public class EmoteMode {
 
     /**
      * If true, the client should send a modified emote text with zero width spaces.
-     * Other Bluecord clients will parse this normally, but stock Discord will not.
+     * Other Raicord clients will parse this normally, but stock Discord will not.
      */
     public boolean isOldNitroSpoof() {
         return this.mode == Mode.ON_BLUECORD_SPOOF;

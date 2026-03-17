@@ -18,11 +18,11 @@ public class AntiDiscordRebrand {
         if (!isEnabled()) return current;
 
         switch (current) {
-            case com.bluecord.R.style.AppTheme_Light: return com.bluecord.R.style.AppTheme_Light_NoRebrand;
-            case com.bluecord.R.style.AppTheme_Dark:  return com.bluecord.R.style.AppTheme_Dark_NoRebrand;
-            case com.bluecord.R.style.AppTheme_Dark_Evil:  return com.bluecord.R.style.AppTheme_Dark_Evil_NoRebrand;
+            case com.raicord.R.style.AppTheme_Light: return com.raicord.R.style.AppTheme_Light_NoRebrand;
+            case com.raicord.R.style.AppTheme_Dark:  return com.raicord.R.style.AppTheme_Dark_NoRebrand;
+            case com.raicord.R.style.AppTheme_Dark_Evil:  return com.raicord.R.style.AppTheme_Dark_Evil_NoRebrand;
             default: {
-                LogUtils.log("Bluecord", "unknown style res (" + current + ")");
+                LogUtils.log("Raicord", "unknown style res (" + current + ")");
                 return current;
             }
         }

@@ -1,7 +1,7 @@
 package mods.parser.components.web
 
 import android.view.View
-import com.bluecord.R
+import com.raicord.R
 import com.discord.widgets.chat.list.FragmentLifecycleListener
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapter
 import com.discord.widgets.chat.list.adapter.WidgetChatListItem
@@ -13,7 +13,7 @@ import mods.utils.RefreshUtils.WIDGET_CHAT_LIST
  * This is a lazy workaround for Components V2.
  *
  * There are a lot of complex layouts here for the new components
- * system that Bluecord doesn't have support for.
+ * system that Raicord doesn't have support for.
  *
  * What we will do here is display a simple card that allows
  * the user to open a webview which uses Discord's webapp

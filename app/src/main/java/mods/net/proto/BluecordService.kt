@@ -4,9 +4,9 @@ import mods.promise.Promise
 import mods.proto.PollRequest
 import mods.proto.PollResponse
 
-object BluecordService {
+object RaicordService {
 
-    private const val SERVICE = "xiphias.bluecord.v1.BluecordService"
+    private const val SERVICE = "xiphias.bluecord.v1.RaicordService"
     private const val METHOD = "Poll"
 
     @JvmStatic

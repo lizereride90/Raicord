@@ -4356,7 +4356,7 @@ izgubljeno: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Osiguraj si da imaš emoji slotove u brutalnim količinama, da ti nikad ne usfali kada ih ustrebaš za svoje izražavanje.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">To je sada to… ali s naljepnicama.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Upload najvećih datoteka za najkvalitetnije memeove. **(samo na serveru)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Prilagodi si URL kojim pozivaš ljude na svoj server s **discord.gg/____. ([Podliježe nekim pravilima]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Prilagodi si URL kojim pozivaš ljude na svoj server s **raicord.app/invite/____. ([Podliježe nekim pravilima]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animirana ikona servera</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Osobno odaberi pozadinu pozivnice</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Pusti svojim prijateljima streaming visoke kvalitete.</string>
@@ -6423,7 +6423,7 @@ prikvačenu poruku… zasad."</string>
     <string name="notification_reply_failed">Pogreška pri slanju poruke za {recipient}</string>
     <string name="notification_reply_success">Odgovorio/la na {recipient}</string>
     <string name="notification_settings">Postavke obavijesti</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Netko se igra</string>
     <string name="notifications">Obavijesti</string>
     <string name="notifications_muted">Obavijesti, utišane</string>

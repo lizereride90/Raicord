@@ -8,7 +8,7 @@ public class EmptyPreference extends Preference {
 
     public EmptyPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setLayoutResource(com.bluecord.R.layout.blue_preference_layout_empty);
+        setLayoutResource(com.raicord.R.layout.blue_preference_layout_empty);
         setEnabled(false);
         setSelectable(false);
     }

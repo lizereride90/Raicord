@@ -10,11 +10,11 @@ public final class Constants {
     public static final boolean FALSE = false;
 
     // Version number. This is changed on release
-    // and is used for checking if Bluecord needs an update
+    // and is used for checking if Raicord needs an update
     public static final int    VERSION_CODE = 27400;
     public static final String VERSION_NAME = "2.7.4";
 
-    // Adds support for Bluecord emotes and other systems that use a '.'
+    // Adds support for Raicord emotes and other systems that use a '.'
     @Language("Regexp")
     public static final String VALID_UNICODE_EMOJI_PATTERN = "^<&?\u200b?(a)?[:|\\.]([a-zA-Z_0-9]+)[:|\\.](\\d+)>";
 

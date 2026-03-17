@@ -10,7 +10,7 @@ import android.widget.Spinner
 import mods.utils.LogUtils
 import java.util.concurrent.atomic.AtomicBoolean
 import androidx.core.graphics.drawable.toDrawable
-import com.bluecord.R
+import com.raicord.R
 import mods.view.Colors
 import mods.view.dp
 

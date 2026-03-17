@@ -36,7 +36,7 @@ class EventSink {
     companion object {
         private val TAG = EventSink::class.java.simpleName
 
-        private const val EVENTS_TABLE_NAME = "BluecordEvents"
+        private const val EVENTS_TABLE_NAME = "RaicordEvents"
 
         // server defines it as 132k, use 100k to be safe on client side
         private const val MAX_PAYLOAD_SIZE = 100_000
@@ -55,7 +55,7 @@ class EventSink {
     fun putEvent(event: Event): Promise<Unit> {
         try {
             val config = ServerConfigStorage.loadNowOrNull()
-            if (config != null && !config.enableEvents) {
+            if (config != null && !(config.enableEvents ?: true)) {
                 LogUtils.log(TAG, "dropping event, server indicates event logging is disabled")
                 return Unit.asResolvedPromise()
             }

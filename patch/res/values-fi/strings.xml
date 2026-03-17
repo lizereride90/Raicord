@@ -4372,7 +4372,7 @@ Menetetty: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Saat käyttöösi rekkakuormallisen emoji-paikkoja luovien tarpeidesi täyttämiseen.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Nyt keskustelu luistaa… tarrojen voimalla.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Suurin sallittu tiedostojen kokorajoitus kaikkein korkealaatuisimpien meemien jakamiseen. **(vain palvelimella)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Mukauta palvelinkutsujesi URL-osoitteet muotoon **discord.gg/____. ([Tähän liittyy sääntöjä]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Mukauta palvelinkutsujesi URL-osoitteet muotoon **raicord.app/invite/____. ([Tähän liittyy sääntöjä]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animoitu palvelimen kuvake</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Mukautettu palvelinkutsun taustakuva</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Striimaa kavereillesi korkealla laadulla.</string>
@@ -6441,7 +6441,7 @@ kiinnitettyjä viestejä… vielä."</string>
     <string name="notification_reply_failed">Vastaaminen käyttäjälle {recipient} epäonnistui</string>
     <string name="notification_reply_success">Vastattu käyttäjälle {recipient}</string>
     <string name="notification_settings">Ilmoitusasetukset</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Joku pelailee</string>
     <string name="notifications">Ilmoitukset</string>
     <string name="notifications_muted">Ilmoitukset mykistetty</string>

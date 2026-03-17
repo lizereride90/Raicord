@@ -25,9 +25,9 @@ import mods.utils.ToastUtil
 import java.util.Date
 import java.util.concurrent.TimeUnit
 
-object BluecordUpdater {
+object RaicordUpdater {
 
-    private val TAG = BluecordUpdater::class.java.simpleName
+    private val TAG = RaicordUpdater::class.java.simpleName
 
     // How long to wait between acknowledgement to reshowing the dialog
     // Delay is to avoid annoying the user
@@ -51,8 +51,9 @@ object BluecordUpdater {
             return
         }
         ServerConfigStorage.maybePollServer().subscribe { response ->
-            if (response.hasUpdate) {
-                showUpdateDialog(activity, response.updateInfo, false)
+            val info = response.updateInfo
+            if (info != null && info.hasUpdate) {
+                showUpdateDialog(activity, info, false)
             }
         }
     }
@@ -62,8 +63,9 @@ object BluecordUpdater {
         ServerConfigStorage.load().hideSpinner(
             SimpleLoadingSpinner(context).show(Strings.getAppName(), "Checking for update...")
         ).subscribe({ response ->
-            if (response.hasUpdate) {
-                showUpdateDialog(context, response.updateInfo, true)
+            val info = response.updateInfo
+            if (info != null && info.hasUpdate) {
+                showUpdateDialog(context, info, true)
             } else {
                 Dialogs.newBuilder(context)
                     .setTitle("No Update Yet")

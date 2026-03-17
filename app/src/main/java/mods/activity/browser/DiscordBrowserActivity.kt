@@ -91,8 +91,8 @@ class DiscordBrowserActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.bluecord.R.layout.activity_bluecord_web_view)
-        view = findViewById(com.bluecord.R.id.blue_id_1)
+        setContentView(com.raicord.R.layout.activity_bluecord_web_view)
+        view = findViewById(com.raicord.R.id.blue_id_1)
 
         if (ThemingTools.isDarkModeOn()) {
             runCatching {

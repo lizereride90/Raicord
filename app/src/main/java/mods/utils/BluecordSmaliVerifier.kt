@@ -3,18 +3,18 @@ package mods.utils
 import mods.DiscordTools
 import mods.promise.runCatchingOrLog
 
-object BluecordSmaliVerifier {
+object RaicordSmaliVerifier {
 
-    // Modified by BluecordPatcher, do not touch
+    // Modified by RaicordPatcher, do not touch
     @Suppress("ALL")
     private var ENABLED = false
 
-    private val TAG = BluecordSmaliVerifier::class.java.simpleName
+    private val TAG = RaicordSmaliVerifier::class.java.simpleName
 
     @JvmStatic
     fun verifyProblematicClasses() {
         if (!ENABLED) {
-            LogUtils.log(TAG, "verifier is disabled, use --smali-verifier in BluecordPatcher to enable for this build")
+            LogUtils.log(TAG, "verifier is disabled, use --smali-verifier in RaicordPatcher to enable for this build")
             return
         }
 

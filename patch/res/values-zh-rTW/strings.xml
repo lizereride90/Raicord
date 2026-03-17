@@ -4372,7 +4372,7 @@
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">獲得更多的表情符號空位，滿足您的表現需求。</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">我們正在聊天…但用的是貼圖。</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">超大的檔案大小，讓您分享超高畫質的有趣影像。**(僅限於伺服器內)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">透過 **discord.gg/____. ([我們有一些規定]({helpdeskArticle}))** 為您的伺服器自訂邀請 URL</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">透過 **raicord.app/invite/____. ([我們有一些規定]({helpdeskArticle}))** 為您的伺服器自訂邀請 URL</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">動畫伺服器圖示</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">自訂伺服器邀請背景</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">以高畫質向好友串流。</string>
@@ -6440,7 +6440,7 @@
     <string name="notification_reply_failed">未回覆給 {recipient}</string>
     <string name="notification_reply_success">已回覆給 {recipient}</string>
     <string name="notification_settings">通知設定</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">有人在玩喔</string>
     <string name="notifications">通知</string>
     <string name="notifications_muted">已將通知設為靜音</string>

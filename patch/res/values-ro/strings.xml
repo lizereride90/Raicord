@@ -4372,7 +4372,7 @@ Pierduți: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Obține acces la o mulțime de locuri pentru emoji-uri care să-ți satisfacă din plin dorința de a te exprima.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Acum mai vii de acasă… cu stickere.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Cele mai mari dimensiuni pentru încărcarea de fișiere, ca să poți partaja meme de cea mai înaltă calitate. **(Doar pe serverr)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Personalizează-ți URL-urile de invitație pe server cu **discord.gg/____. ([Avem câteva reguli]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Personalizează-ți URL-urile de invitație pe server cu **raicord.app/invite/____. ([Avem câteva reguli]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Pictogramă de server animată</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Fundal personalizat pentru invitații pe server</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Fă streaming de înaltă calitate pentru prietenii tăi.</string>
@@ -6441,7 +6441,7 @@ niciun mesaj fixat.. încă."</string>
     <string name="notification_reply_failed">Nu s-a putut trimite un răspuns către {recipient}</string>
     <string name="notification_reply_success">Răspuns trimis către {recipient}</string>
     <string name="notification_settings">Setări de notificare</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Cineva se joacă</string>
     <string name="notifications">Notificări</string>
     <string name="notifications_muted">Notificări, amuțite</string>

@@ -4,7 +4,7 @@ package mods.dialog
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.bluecord.R
+import com.raicord.R
 
 class SimpleLoadingSpinner(context: Context) {
     private val pd = BlueProgressDialog(context)

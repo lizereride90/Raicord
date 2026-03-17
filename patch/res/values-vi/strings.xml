@@ -4372,7 +4372,7 @@ Mất đi: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Hãy thử tất cả những emoji để thể hiện cảm xúc của bạn đi nào.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Giờ đây chúng ta nói chuyện với nhau… nhưng qua các sticker.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">Tối đa dung lượng tập tin tải lên để chia sẻ meme chất lượng cao nhất. **(Chỉ có tại máy chủ)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Tùy biến URL mời cho máy chủ của bạn với **discord.gg/____. ([Chúng tôi có vài quy định]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Tùy biến URL mời cho máy chủ của bạn với **raicord.app/invite/____. ([Chúng tôi có vài quy định]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Biểu tượng máy chủ động</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Tùy chỉnh ảnh nền lời mời vào máy chủ</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Stream cho bạn bè xem ở định dạng chất lượng cao.</string>
@@ -6441,7 +6441,7 @@ tin nhắn nào được ghim."</string>
     <string name="notification_reply_failed">Không thể trả lời {recipient}</string>
     <string name="notification_reply_success">Đã trả lời cho {recipient}</string>
     <string name="notification_settings">Cài đặt thông báo</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Ai đó đang bắt đầu chơi</string>
     <string name="notifications">Các Thông Báo</string>
     <string name="notifications_muted">Thông báo, đã tắt âm</string>

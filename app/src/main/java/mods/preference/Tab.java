@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.bluecord.R;
+import com.raicord.R;
 import mods.activity.BlueSettingsActivity;
 
 public class Tab extends Preference {
@@ -17,7 +17,7 @@ public class Tab extends Preference {
 
     public Tab(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setLayoutResource(com.bluecord.R.layout.blue_preference_layout_tab);
+        setLayoutResource(com.raicord.R.layout.blue_preference_layout_tab);
 
         switch (attrs.getAttributeValue("http://schemas.android.com/apk/res/android", "title")) {
             case "Update + Developer Info":

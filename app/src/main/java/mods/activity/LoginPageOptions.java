@@ -62,7 +62,7 @@ public class LoginPageOptions {
         if (proxySettingsButton != null) {
             proxySettingsButton.setOnClickListener(v -> {
                 fragment.startActivity(new Intent(fragment.getActivity(), BlueSettingsActivity.class)
-                        .putExtra(BlueSettingsActivity.EXTRA_PREF_KEY, com.bluecord.R.xml.prefs_proxy)
+                        .putExtra(BlueSettingsActivity.EXTRA_PREF_KEY, com.raicord.R.xml.prefs_proxy)
                         .addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT));
             });
         }

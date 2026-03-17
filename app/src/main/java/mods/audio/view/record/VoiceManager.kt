@@ -20,7 +20,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.isVisible
-import com.bluecord.R
+import com.raicord.R
 import com.discord.models.domain.NonceGenerator
 import com.discord.utilities.time.ClockFactory
 import com.discord.widgets.chat.input.WidgetChatInput

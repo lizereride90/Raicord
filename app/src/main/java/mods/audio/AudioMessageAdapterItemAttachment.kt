@@ -8,7 +8,7 @@ import android.widget.ImageView
 import androidx.constraintlayout.widget.Barrier
 import androidx.constraintlayout.widget.Guideline
 import androidx.core.net.toUri
-import com.bluecord.R
+import com.raicord.R
 import com.discord.stores.StoreStream
 import com.discord.utilities.view.extensions.ViewExtensions
 import com.discord.widgets.chat.list.FragmentLifecycleListener

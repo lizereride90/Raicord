@@ -2418,7 +2418,7 @@
     <string name="disconnect_user_success">‏‮User‬‏ ‏‮has‬‏ ‏‮been‬‏ ‏‮disconnected‬‏ ‏‮from‬‏ ‏‮voice.‬‏</string>
     <string name="discord_desc_long">‏‮Join‬‏ ‏‮over‬‏ ‏‮100‬‏ ‏‮million‬‏ ‏‮people‬‏ ‏‮who‬‏ ‏‮use‬‏ ‏‮Discord‬‏ ‏‮to‬‏ ‏‮talk‬‏ ‏‮and‬‏ ‏‮hang‬‏ ‏‮out‬‏ ‏‮with‬‏ ‏‮communities‬‏ ‏‮and‬‏ ‏‮friends.‬‏</string>
     <string name="discord_desc_short">‏‮Imagine‬‏ ‏‮a‬‏ ‏‮place‬‏</string>
-    <string name="discord_gg">‏‮discord.gg/‬‏</string>
+    <string name="discord_gg">‏‮raicord.app/invite/‬‏</string>
     <string name="discord_name">‏‮Discord‬‏</string>
     <string name="discord_rich_presence">‏‮Discord‬‏ ‏‮Rich‬‏ ‏‮Presence‬‏</string>
     <string name="discord_u_coming_soon_to_mobile">‏‮Coming‬‏ ‏‮soon‬‏ ‏‮to‬‏ ‏‮mobile!‬‏ ‏‮For‬‏ ‏‮now,‬‏ ‏‮head‬‏ ‏‮over‬‏ ‏‮to‬‏ ‏‮desktop‬‏ ‏‮to‬‏ ‏‮access‬‏ ‏‮Student‬‏ ‏‮Hubs‬‏</string>
@@ -5002,7 +5002,7 @@
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">‏‮Have‬‏ ‏‮yourself‬‏ ‏‮access‬‏ ‏‮to‬‏ ‏‮a‬‏ ‏‮truckload‬‏ ‏‮of‬‏ ‏‮emoji‬‏ ‏‮slots‬‏ ‏‮for‬‏ ‏‮all‬‏ ‏‮your‬‏ ‏‮expressing‬‏ ‏‮needs.‬‏</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">‏‮Now‬‏ ‏‮we’re‬‏ ‏‮talking…‬‏ ‏‮but‬‏ ‏‮with‬‏ ‏‮stickers.‬‏</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">‏‮The‬‏ ‏‮biggest‬‏ ‏‮file‬‏ ‏‮sizes‬‏ ‏‮for‬‏ ‏‮the‬‏ ‏‮highest‬‏ ‏‮quality‬‏ ‏‮meme‬‏ ‏‮sharing.‬‏ ‏‮**(Only‬‏ ‏‮in‬‏ ‏‮server)**‬‏</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">‏‮Customize‬‏ ‏‮the‬‏ ‏‮invite‬‏ ‏‮URLs‬‏ ‏‮to‬‏ ‏‮your‬‏ ‏‮server‬‏ ‏‮with‬‏ ‏‮**discord.gg/____.‬‏ ‏‮([We‬‏ ‏‮have‬‏ ‏‮some‬‏ ‏‮rules](‬‏‏‮{helpdeskArticle}‬‏‏‮))**‬‏</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">‏‮Customize‬‏ ‏‮the‬‏ ‏‮invite‬‏ ‏‮URLs‬‏ ‏‮to‬‏ ‏‮your‬‏ ‏‮server‬‏ ‏‮with‬‏ ‏‮**raicord.app/invite/____.‬‏ ‏‮([We‬‏ ‏‮have‬‏ ‏‮some‬‏ ‏‮rules](‬‏‏‮{helpdeskArticle}‬‏‏‮))**‬‏</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">‏‮Animated‬‏ ‏‮server‬‏ ‏‮icon‬‏</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">‏‮Custom‬‏ ‏‮server‬‏ ‏‮invite‬‏ ‏‮background‬‏</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">‏‮Stream‬‏ ‏‮to‬‏ ‏‮your‬‏ ‏‮friends‬‏ ‏‮in‬‏ ‏‮high‬‏ ‏‮quality.‬‏</string>
@@ -6150,9 +6150,9 @@
     <string name="invite_invalid_error">"‏‮This‬‏ ‏‮invite‬‏ ‏‮link‬‏ ‏‮is‬‏ ‏‮invalid‬‏ ‏‮or‬‏ ‏‮has‬‏ ‏‮expired.‬‏
 ‏‮Want‬‏ ‏‮to‬‏ ‏‮know‬‏ ‏‮more‬‏ ‏‮about‬‏ ‏‮Discord?‬‏"</string>
     <string name="invite_link_copied">‏‮Invite‬‏ ‏‮copied!‬‏</string>
-    <string name="invite_link_example_full">‏‮https://discord.gg/hTKzmak‬‏</string>
+    <string name="invite_link_example_full">‏‮https://raicord.app/invite/hTKzmak‬‏</string>
     <string name="invite_link_example_simple">‏‮hTKzmak‬‏</string>
-    <string name="invite_link_example_verified">‏‮https://discord.gg/cool-people‬‏</string>
+    <string name="invite_link_example_verified">‏‮https://raicord.app/invite/cool-people‬‏</string>
     <string name="invite_links_expire_after_default">‏‮Invite‬‏ ‏‮links‬‏ ‏‮expire‬‏ ‏‮every‬‏ ‏‮{days}‬‏ ‏‮by‬‏ ‏‮default‬‏</string>
     <string name="invite_members">‏‮Invite‬‏ ‏‮Members‬‏</string>
     <string name="invite_message_placeholder">‏‮hey‬‏ ‏‮come‬‏ ‏‮check‬‏ ‏‮out‬‏ ‏‮Discord‬‏ ‏‮with‬‏ ‏‮me‬‏ ‏‮!!‬‏‏‮{link}‬‏‏‮!!‬‏</string>

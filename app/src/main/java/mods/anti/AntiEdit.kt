@@ -2,7 +2,7 @@ package mods.anti
 
 import android.content.Context
 import b.a.t.b.a.a
-import com.bluecord.R
+import com.raicord.R
 import com.discord.models.message.Message
 import com.discord.utilities.textprocessing.node.EditedMessageNode
 import com.discord.utilities.time.ClockFactory

@@ -9,7 +9,7 @@ import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import androidx.core.content.ContextCompat
-import com.bluecord.R
+import com.raicord.R
 
 class FlipMe @JvmOverloads constructor(
     context: Context,

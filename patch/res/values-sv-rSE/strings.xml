@@ -4282,7 +4282,7 @@ Förlorade: {subscribersLost}"</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_emoji">Skaffa dig ett helt lass med emoji-platser för att uppfylla alla dina behov av att uttrycka dig.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_sticker">Nu snackar vi … fast med dekaler.</string>
     <string name="guild_settings_guild_premium_perk_description_tier_3_upload_limit">De största filstorlekarna för att dela memes av den bästa kvaliteten. **(Endast i servern)**</string>
-    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Anpassa inbjudnings-URL:er till din server med **discord.gg/____. ([Det finns vissa regler]({helpdeskArticle}))**</string>
+    <string name="guild_settings_guild_premium_perk_description_tier_3_vanity_url">Anpassa inbjudnings-URL:er till din server med **raicord.app/invite/____. ([Det finns vissa regler]({helpdeskArticle}))**</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_animated_guild_icon">Animerad serverikon</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_splash">Anpassa serverns inbjudningsbakgrund</string>
     <string name="guild_settings_guild_premium_perk_title_tier_1_streaming">Streama till dina vänner i hög kvalitet.</string>
@@ -6302,7 +6302,7 @@ fästa meddelanden … ännu."</string>
     <string name="notification_reply_failed">Misslyckades att svara på {recipient}</string>
     <string name="notification_reply_success">Svarade på {recipient}</string>
     <string name="notification_settings">Aviseringsinställningar</string>
-    <string name="notification_title_discord">Bluecord</string>
+    <string name="notification_title_discord">Raicord</string>
     <string name="notification_title_start_game">Någon spelar</string>
     <string name="notifications">Aviseringar</string>
     <string name="notifications_muted">Aviseringar är tystade</string>

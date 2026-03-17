@@ -25,7 +25,7 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import com.bluecord.R;
+import com.raicord.R;
 import com.discord.api.premium.PremiumTier;
 
 import org.jetbrains.annotations.NotNull;
@@ -38,7 +38,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import mods.DiscordTools;
 import mods.ThemingTools;
 import mods.activity.browser.DiscordBrowserActivity;
-import mods.activity.update.BluecordUpdater;
+import mods.activity.update.RaicordUpdater;
 import mods.constants.PreferenceKeys;
 import mods.dialog.Dialogs;
 import mods.net.Urban;
@@ -216,7 +216,7 @@ public class MediaTray {
             mediaTrayList.setVisibility(View.VISIBLE);
             mediaTrayList.setDividerHeight(1);
             mediaTrayList.setOnItemClickListener((parent, view, position, id) -> {
-                EditText tv = mediaTrayView.findViewById(com.bluecord.R.id.text_input);
+                EditText tv = mediaTrayView.findViewById(com.raicord.R.id.text_input);
                 tv.setText(ensurePrefix(commandsList.get(position)));
                 tv.setSelection(tv.getText().length());
             });
@@ -314,7 +314,7 @@ public class MediaTray {
                 if (limit < 1 || limit > MessageDeleterTask.DELETE_LIMIT_UPPER_BOUND) {
                     ToastUtil.toast("Use a number between 1-" + MessageDeleterTask.DELETE_LIMIT_UPPER_BOUND);
                 } else if (channelId == null) {
-                    ToastUtil.toast("Could not locate the current channel. Restart Bluecord and retry.");
+                    ToastUtil.toast("Could not locate the current channel. Restart Raicord and retry.");
                 } else if (!DiscordTools.isNetworkConnected()) {
                     ToastUtil.toast("You don't appear to be connected to the Internet. Check your connection and retry.");
                 } else {
@@ -353,7 +353,7 @@ public class MediaTray {
         }
 
         else if (text.equals("update")) {
-            BluecordUpdater.checkFromPreferences(mFragment.requireActivity());
+            RaicordUpdater.checkFromPreferences(mFragment.requireActivity());
         }
         else if (text.equals("bluecord")) {
             FragmentActivity activity = mFragment.getActivity();

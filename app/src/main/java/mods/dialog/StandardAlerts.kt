@@ -66,7 +66,7 @@ object StandardAlerts {
         Dialogs.newBuilder(context)
             .setTitle("Warning")
             .setMessage(
-                "Use this tool at your own risk. The Bluecord developer(s) assume no responsibility if anything goes wrong.\n\nDo you wish to continue?"
+                "Use this tool at your own risk. The Raicord developer(s) assume no responsibility if anything goes wrong.\n\nDo you wish to continue?"
             )
             .setNegativeButton("No")
             .setPositiveButton("Yes") {

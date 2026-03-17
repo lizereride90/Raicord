@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.discord'
+    namespace 'com.raicord'
     android.buildFeatures.buildConfig true
 
     packagingOptions {
@@ -33,7 +33,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.bluecord"
+        applicationId "com.raicord"
         versionCode 1
         versionName "1.0"
 
